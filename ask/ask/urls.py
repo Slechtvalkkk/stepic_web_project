@@ -8,11 +8,11 @@ urlpatterns = patterns('',
     # url(r'^$', 'ask.views.home', name='home'),
     # url(r'^blog/', include('blog.urls')),
 
-    url(r'^/', 'qa.views.test1'),
-    url(r'^login/', ''),
-    url(r'^signup/', ''),
-    url(r'^questions/<qnum>/', 'qa.views.test'),
-    url(r'^ask/', ''),
-    url(r'^popular/', ''),
-    url(r'^new/', '')
+    url(r'^$', 'qa.views.test'),
+    url(r'^login/', 'qa.views.test'),
+    url(r'^signup/', 'qa.views.test'),
+    url(r'^questions/\d+/', 'qa.views.test'),
+    url(r'^ask/', 'qa.views.test'),
+    url(r'^popular/', 'qa.views.test'),
+    url(r'^new/', 'qa.views.test')
 )
