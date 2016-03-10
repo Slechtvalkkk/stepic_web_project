@@ -3,8 +3,6 @@ from django.conf.urls import include, url
 from django.contrib import admin
 admin.autodiscover()
 
-println('123')
-
 urlpatterns = [
     url(r'^$', 'qa.views.test'),
     url(r'^login/', 'qa.views.test'),

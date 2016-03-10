@@ -22,7 +22,7 @@ SECRET_KEY = '$-kb$7o(bdo@f*ege&rf@#@l6an3(*l!z_(zsp$$(&$vik&+cv'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-TEMPLATE_DEBUG = False
+TEMPLATE_DEBUG = True
 
 ALLOWED_HOSTS = []
 
